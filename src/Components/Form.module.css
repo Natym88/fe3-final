@@ -11,5 +11,16 @@
 }
 
 .inputSpacing+.inputSpacing{
-  margin: 1rem 0;
+  margin-top: 1rem;
+}
+
+.errorMessage {
+  color: rgb(158, 60, 60);
+  font-size: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.error {
+  border: rgb(158, 60, 60) solid 1px;
 }

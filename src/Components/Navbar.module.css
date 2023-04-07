@@ -2,8 +2,17 @@
   font-size: 30px;
 }
 
+.dark .navbarBrand, .dark {
+  background-color: #353535;
+  color: white;
+}
+
 .navbarBrand::first-letter {
   color: #f21d1d;
+}
+
+.dark .navBarLink a, .dark li button {
+  color: white;
 }
 
 .navBarLink {
